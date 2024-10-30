@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "PedidosSurisApp.Controllers.ArticulosController",
+    "Method": "GetArticulos",
+    "RelativePath": "api/articulos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PedidosSurisApp.Controllers.PedidosController",
+    "Method": "GuardarPedido",
+    "RelativePath": "api/pedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pedido",
+        "Type": "PedidosSurisApp.Models.Pedido",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PedidosSurisApp.Controllers.VendedoresController",
+    "Method": "GetVendedores",
+    "RelativePath": "api/vendedores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
